@@ -130,6 +130,7 @@
     <ClCompile Include="Barries.cpp" />
     <ClCompile Include="Bush.cpp" />
     <ClCompile Include="ConsoleApplication2.cpp" />
+    <ClCompile Include="Forest.cpp" />
     <ClCompile Include="Fruits.cpp" />
     <ClCompile Include="Harvest.cpp" />
     <ClCompile Include="Plants.cpp" />
@@ -139,6 +140,7 @@
   <ItemGroup>
     <ClInclude Include="Barries.hpp" />
     <ClInclude Include="Bush.hpp" />
+    <ClInclude Include="Forest.hpp" />
     <ClInclude Include="Fruits.hpp" />
     <ClInclude Include="Harvest.hpp" />
     <ClInclude Include="Plants.hpp" />

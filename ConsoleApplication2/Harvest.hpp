@@ -11,6 +11,19 @@ class Harvest {
 public:
 	bool IsEdible()const;
 	virtual float Nutrition() = 0;
+	
+	
+	Harvest(std::string name, double weight);
+
+	void SetName(std::string name);
+	void SetWeight(double weight);
+
+	std::string GetName();
+	double GetWeight();
+
+	
+
+	
 
 private:
 	std::string name_;

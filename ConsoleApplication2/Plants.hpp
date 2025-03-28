@@ -6,6 +6,16 @@ class Plants
 {
 public:
 	Harvest ShowAvailibleHarvest();
+	Plants(int harvestCount, double harvestHeight, std::string harvestName);
+
+	void SetHeight(int harvestCount);
+	void SetCount(double harvestHeight);
+	void SetName(std::string harvestName);
+
+	int GetHeight();
+	double GetHeight();
+	std::string GetName();
+
 
 private:
 
