@@ -12,7 +12,7 @@ public:
 	void SetCount(double harvestHeight);
 	void SetName(std::string harvestName);
 
-	int GetHeight();
+	int GetHeight() const;
 	double GetHeight();
 	std::string GetName();
 

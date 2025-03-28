@@ -25,7 +25,7 @@ void Plants::SetName(std::string harvestName)
 	this->harvestName_;
 }
 
-int Plants::GetHeight()
+int Plants::GetHeight() const
 {
 	return harvestHeight;
 }
