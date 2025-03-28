@@ -13,7 +13,7 @@ public:
 	void SetName(std::string harvestName);
 
 	int GetHeight() const;
-	double GetHeight();
+	/*double GetHeight();*/
 	std::string GetName();
 
 

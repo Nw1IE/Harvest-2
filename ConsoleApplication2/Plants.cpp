@@ -1,9 +1,9 @@
 #include "Plants.hpp"
 
-Harvest Plants::ShowAvailibleHarvest()
-{
-	return Harvest();
-}
+//Harvest Plants::ShowAvailibleHarvest()
+//{
+//	return Harvest();
+//}
 
 Plants::Plants(int harvestCount, double harvestHeight, std::string harvestName)
 {
